@@ -28,7 +28,7 @@ int main()
     std::cout << "Walk 1 meter, turn 90 degrees clockwise. Climb 6 stairs step by step.\n";
     std::cout << "Turn 90 degrees anti-clockwise to face North. Climb 6 stairs step by step.\n";
     std::cout << "Turn 90 degrees anti-clockwise to face West. Climb 4 stairs step by step.\n";
-    std::cout << "Walk 1 meter, turn 90 degress anti-clockwise, facing South.\n";
+    std::cout << "Walk 1 meter, turn 90 degrees anti-clockwise, facing South.\n";
     std::cout << "Grab the door handle with your right hand and turn 30 degrees clockwise.\n";
     std::cout << "Push the door open then let go of the handle and walk through.\n";
     std::cout << "YOU HAVE SUCCESSFULLY REACHED THE BATHROOM!\n";
