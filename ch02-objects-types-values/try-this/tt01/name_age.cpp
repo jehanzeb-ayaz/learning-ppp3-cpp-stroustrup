@@ -1,4 +1,4 @@
-/* Chapter 2. Try This 1. "Name and age" example fromm the book
+/* Chapter 2. Try This 1. "Name and age" example from the book
  * corrected such that it runs. Then modified to write out the 
  * age in number of months: read the input in years and multiply 
  * (using the * operator) by 12. Read the age into a double.
