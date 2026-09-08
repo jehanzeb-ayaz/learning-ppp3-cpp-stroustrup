@@ -1,6 +1,7 @@
-/* Chapter 2. Drill 1-3. "Name and age" example from the book
+/* Chapter 2. Drill 1-4. "Name and age" example from the book
  * modified to write a letter to someone. Add a few sentences
- * along with indentation.
+ * along with indentation. Prompt the user to enter the age of 
+ * the recipient. Add some sentences and error checking for age.
 */
 
 #include "../../support/PPPheaders.h"
@@ -13,7 +14,8 @@ int main()
          std::cin >> first_name >> age;     // read a string
          if (age < 0 || age > 110)
          {
-            error("you're kidding!");
+            error("you're kidding!");       // using error() instead of simple_error() as stated 
+                                            // in the book. no simple_error() foun in PPP_support.h
          }
 
          std::cout << "Enter the name of the common friend:\n";
