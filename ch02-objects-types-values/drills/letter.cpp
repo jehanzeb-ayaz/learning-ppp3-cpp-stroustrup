@@ -1,7 +1,8 @@
-/* Chapter 2. Drill 1-4. "Name and age" example from the book
+/* Chapter 2. Drill 1-5. "Name and age" example from the book
  * modified to write a letter to someone. Add a few sentences
  * along with indentation. Prompt the user to enter the age of 
  * the recipient. Add some sentences and error checking for age.
+ * Add curated messages for various ages.
 */
 
 #include "../../support/PPPheaders.h"
@@ -27,6 +28,20 @@ int main()
          std::cout << "making steady progress here. How about you? How are\n";
          std::cout << "things in San Francisco?\n";
          std::cout << "I hear you just had a birthday and you are " << age << "\n";
-         std::cout << "years old. How was your birthday party? And have you,\n";
-         std::cout << "by any chance, seen " << friend_name << " lately?\n";
+         std::cout << "years old. How was your birthday party?\n";
+
+         if (age < 12)
+         {
+            std::cout << "Next year you will be " << age + 1 << "\n";
+         }
+         else if (age == 17)
+         {
+            std::cout << "Next year you will be able to vote.\n";
+         }
+         else if (age > 70)
+         {
+            std::cout << "Are you retired?\n";
+         }
+
+         std::cout << "Have you, by any chance, seen " << friend_name << " lately?\n";
 }
