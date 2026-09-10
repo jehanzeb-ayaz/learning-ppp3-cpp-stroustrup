@@ -46,4 +46,6 @@ int main()
          std::cout << "Have you, by any chance, seen " << friend_name << " lately?\n";
 
          std::cout << "Yours sincerely,\n\n\n" << "Jehanzeb\n";
+
+         return 0;
 }
