@@ -1,4 +1,4 @@
-/* Chapter 2. Exercise 1. C++ program to convert miles to
+/* Chapter 2. Exercise 2. C++ program to convert miles to
  * kilometers.
 */
 
