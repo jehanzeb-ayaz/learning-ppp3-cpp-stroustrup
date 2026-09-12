@@ -1,5 +1,5 @@
 /* Chapter 2. Exercise 5. Ask the user to input two
- * floating-point values and perform some operatinos on them.
+ * floating-point values and perform some operations on them.
  * Return the results.
 */
 
