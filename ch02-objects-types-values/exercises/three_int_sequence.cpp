@@ -25,12 +25,12 @@ int main()
         }
         else if (val1 <= val3 && val3 <= val2)
         {
-            cout << val1 << ", " << val2 << ", " << val2 << ".\n";
+            cout << val1 << ", " << val3 << ", " << val2 << ".\n";
         }
 
         else if (val2 <= val1 && val1 <= val3)
         {
-            cout << val2 << ", " << val1 << ", " << val2 << ".\n";
+            cout << val2 << ", " << val1 << ", " << val3 << ".\n";
         }
         else if (val2 <= val3 && val3 <= val1)
         {
