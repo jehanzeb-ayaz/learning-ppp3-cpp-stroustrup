@@ -1,4 +1,4 @@
-/* Chapter 3. Try This 1. A C++ program that converts yen,
+/* Chapter 3. Try This 2. A C++ program that converts yen,
  * kroner and pounds to dollars.
 */
 
