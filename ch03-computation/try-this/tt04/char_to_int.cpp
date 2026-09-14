@@ -1,6 +1,6 @@
 /* Chapter 3. Try This 4. A C++ program prints
- * letters of the alphabet and their corresponding
- * ASCII integer values.
+ * letters of the alphabet and the 10 digits with
+ * their corresponding ASCII integer values.
 */
 
 #include "../../../support/PPPheaders.h"
