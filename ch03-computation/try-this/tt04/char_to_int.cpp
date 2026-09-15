@@ -1,4 +1,4 @@
-/* Chapter 3. Try This 4. A C++ program prints
+/* Chapter 3. Try This 4. A C++ program that prints
  * letters of the alphabet and the 10 digits with
  * their corresponding ASCII integer values.
 */
