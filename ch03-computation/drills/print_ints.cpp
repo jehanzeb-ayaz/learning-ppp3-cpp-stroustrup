@@ -13,9 +13,16 @@ int main()
     while (cin >> val1 >> val2)
     {
         cout << val1 << " " << val2 << "\n";
-
-        cout << "the smaller value is: " << (val1 < val2 ? val1 : val2) << ".\n";
-        cout << "the larger value is: " << (val1 > val2 ? val1 : val2) << ".\n";
+        
+        if (val1 == val2)
+        {
+            cout << "the numbers are equal.\n";
+        }
+        else 
+        {
+            cout << "the smaller value is: " << (val1 < val2 ? val1 : val2) << ".\n";
+            cout << "the larger value is: " << (val1 > val2 ? val1 : val2) << ".\n";
+        }
 
         cout << "Enter two integer values please ('|' to terminate):\n";
     }
