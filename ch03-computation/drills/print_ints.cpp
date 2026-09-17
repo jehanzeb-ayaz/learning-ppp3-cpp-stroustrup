@@ -1,5 +1,5 @@
-/* Chapter 3. Drill 1. A C++ program that asks the user
- * to enter two integer values (continuously in a while-loop)
+/* Chapter 3. Drill 1-5. A C++ program that asks the user
+ * to enter two integer/double values (continuously in a while-loop)
  * and prints them, until the user  enters '|'.
 */
 
