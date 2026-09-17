@@ -7,8 +7,8 @@
 
 int main()      
 {
-    int val1= -1, val2 = -1;
-    cout << "Enter two integer values please ('|' to terminate):\n";
+    double val1= -1.0, val2 = -1.0;
+    cout << "Enter two floating-point values please ('|' to terminate):\n";
 
     while (cin >> val1 >> val2)
     {
@@ -24,7 +24,7 @@ int main()
             cout << "the larger value is: " << (val1 > val2 ? val1 : val2) << ".\n";
         }
 
-        cout << "Enter two integer values please ('|' to terminate):\n";
+        cout << "Enter two floating-point values please ('|' to terminate):\n";
     }
 
     return 0;
