@@ -18,6 +18,10 @@ int main()
         {
             cout << "the numbers are equal.\n";
         }
+        else if (val1 - val2 > -0.009 && val1 - val2 < 0.009)
+        {
+            cout << "the numbers are almost equal.\n";
+        }
         else 
         {
             cout << "the smaller value is: " << (val1 < val2 ? val1 : val2) << ".\n";
