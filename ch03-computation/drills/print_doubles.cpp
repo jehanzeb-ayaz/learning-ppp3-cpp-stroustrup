@@ -1,6 +1,6 @@
 /* Chapter 3. Drill 6. A C++ program that asks the user
- * to enter two double values (continuously in a while-loop)
- * and prints them, until the user  enters '|'.
+ * to enter a double value (continuously in a while-loop)
+ * and print them, until the user  enters '|'.
 */
 
 #include "../../support/PPPheaders.h"
