@@ -1,4 +1,4 @@
-/* Chapter 3. Drill 09. A C++ program that asks the user
+/* Chapter 3. Drill 10. A C++ program that asks the user
  * to enter a double value and a unit (cm, m, in, ft)
  * (continuously in a while-loop) and print them, 
  * until the user  enters '|'.
@@ -82,6 +82,12 @@ int main()
     cout << largest << " is the largest so far.\n";
     cout << "The number of values entered so far is " << entered_numbers.size() << ".\n";
     cout << "The sum of values entered (in meters) is: " << sum << ".\n";
+
+    for (double x : entered_numbers)
+    {
+        cout << x << " ";
+    }
+    cout << ".\n";
 
     return 0;
 }
