@@ -34,7 +34,7 @@ int main()
             cout << val1 << "\n";
         }
 
-        cout << "Enter two floating-point values please ('|' to terminate):\n";
+        cout << "Enter a floating-point values please ('|' to terminate):\n";
     }
 
     return 0;
